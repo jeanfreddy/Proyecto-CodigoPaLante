@@ -52,7 +52,7 @@ main {
 }
 
 div {
-    margin: 30px;
+    margin: 25px;
 }
 
 section {
@@ -70,6 +70,8 @@ p {
 }
 
 body {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
     display:flex;
     justify-content: center;
     margin-bottom:100px;
@@ -77,6 +79,7 @@ body {
 
 header {
     height: 90px;
+    object-fit: cover;
     background-color:#fbfbfb;
     color: #0f0f0f;
     position: fixed;
@@ -90,7 +93,9 @@ header {
 
 #foto {
     height: 400px;
-    width: 400px;
+    object-fit: cover;
+    width: 100%;
+    max-width: 400px;
     border-radius: 50%;
     display: flex;
     margin-left: 30px;
